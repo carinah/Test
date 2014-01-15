@@ -1,6 +1,6 @@
 def map &block
   temp = []
-  i - 0
+  i = 0
   each do |element| 
       temp[i]  = yield element
   i += 1
