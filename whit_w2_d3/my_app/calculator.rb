@@ -22,3 +22,7 @@ end
 get "/bonus/:a/:b.:c" do
 	(params[:a].to_f + (params[:b].to_f) + params[:c].to_f/10.0).to_s
 end
+
+et "/bonus/:a/:b.:c" do
+	(params[:a].to_f + (params[:b].to_f) + params[:c].to_f/10.0).to_s
+end
